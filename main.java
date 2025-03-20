@@ -3,7 +3,7 @@ import java.io.BufferedReader;
 import java.io.FileReader;
 import java.io.IOException;
 
-public class Assignment2Part1AVLTree {
+public class main {
 
 	public static void main(String[] args) {
 		Scanner input = new Scanner(System.in);
@@ -11,7 +11,7 @@ public class Assignment2Part1AVLTree {
 		//SplayTree tree = new SplayTree();
 		BufferedReader fileReader = null;
 		try {
-			fileReader = new BufferedReader(new FileReader("book.txt"));
+			fileReader = new BufferedReader(new FileReader("book.txt")); //CHANGE FILENAME HERE
 
 			while (true) {
 				//Read in records from the File
